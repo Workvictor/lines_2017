@@ -106,7 +106,7 @@ const Main = function() {
     // else if (LOADED_COUNT >= IMAGES.length) {
     //   DISPLAY.print("Decoding audio: " + DECODING_PROGRESS + "%");
     // }
-    if (LOADED_NOW == 100 && LOADED_COUNT == RESOURCES.length) {
+    if (LOADED_NOW === 100 && LOADED_COUNT === RESOURCES.length) {
       LOOP.init(on_load_end);
     }
     LOOP.check(LOADED_NOW <= 100 && LOADED_COUNT < RESOURCES.length);
