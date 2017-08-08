@@ -1,0 +1,4 @@
+# dev ignor
+node_modules/
+dist/
+.idea/
